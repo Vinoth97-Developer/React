@@ -1,0 +1,171 @@
+/* App.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.main-nav {
+  background-color: #0D1B2A;
+  height: 50px;
+}
+
+.sub-nav {
+  background-color: #415A77;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav li {
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.first-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(46, 153, 60);
+  background-color: rgb(206, 240, 206);
+  color: #000000;
+  font-weight: bold;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.first-btn:hover {
+  background-color: rgb(173, 235, 173);
+  border-color: rgb(46, 173, 60);
+}
+
+.first-btn:active {
+  background-color: rgb(153, 215, 153);
+  border-color: rgb(46, 153, 60);
+}
+
+
+.second-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 102, 204);
+  background-color: rgb(240, 248, 255);
+  color: #000000;
+  font-weight: bold;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.second-btn:hover {
+  background-color: rgb(220, 228, 235);
+  border-color: rgb(0, 82, 184);
+}
+
+.second-btn:active {
+  background-color: rgb(200, 208, 215);
+  border-color: rgb(0, 62, 164);
+}
+
+
+.to-parent-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(179, 99, 0);
+  background-color: rgb(255, 179, 102);
+  color: #000000;
+  font-weight: bold;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.to-parent-btn:hover {
+  background-color: rgb(255, 159, 82); /* Slightly darker orange */
+  border-color: rgb(159, 79, 0); /* Slightly darker border */
+}
+
+.to-parent-btn:active {
+  background-color: rgb(255, 139, 62); /* Even darker orange */
+  border-color: rgb(139, 59, 0); /* Even darker border */
+}
+
+.toggleButton {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggleButton.on {
+  color: #ffffff;
+  background-color: #4CAF50; /* Green for "On" */
+}
+
+.toggleButton.on:hover {
+  background-color: #45a049;
+}
+
+.toggleButton.on:active {
+  background-color: #3e8e41;
+}
+
+.toggleButton.off {
+  color: #ffffff;
+  background-color: #f44336; /* Red for "Off" */
+}
+
+.toggleButton.off:hover {
+  background-color: #e53935;
+}
+
+.toggleButton.off:active {
+  background-color: #d32f2f;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049; 
+}
+
+.submit-btn:active {
+  background-color: #3e8e41; 
+  transform: scale(0.98); 
+}
+
+.custom-cursor{
+  cursor: url(Components/Assets/soft.png), auto;
+}
